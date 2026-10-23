@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dummy HTML Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+      margin: 60px auto;
+      padding: 0 20px;
+      line-height: 1.6;
+      color: #222;
+      background: #f5f7fa;
+    }
+    main {
+      background: white;
+      padding: 32px;
+      border-radius: 12px;
+      box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+    }
+    h1 { color: #12334e; }
+    button {
+      background: #008077;
+      color: white;
+      border: 0;
+      padding: 10px 16px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Hello, world!</h1>
+    <p>This is a simple dummy HTML file you can use for testing or as a starting point.</p>
+    <button onclick="document.getElementById('message').textContent = 'Button clicked!'">
+      Click me
+    </button>
+    <p id="message" aria-live="polite"></p>
+  </main>
+</body>
+</html>
